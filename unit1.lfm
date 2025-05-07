@@ -1,0 +1,41 @@
+object AboutForm: TAboutForm
+  Left = 396
+  Height = 512
+  Top = 175
+  Width = 1021
+  Caption = 'AboutForm'
+  ClientHeight = 512
+  ClientWidth = 1021
+  Font.CharSet = ANSI_CHARSET
+  Font.Height = -19
+  Font.Pitch = fpVariable
+  Font.Quality = fqDraft
+  LCLVersion = '3.8.0.0'
+  object URLLabel1: TLabel
+    Left = 48
+    Height = 25
+    Top = 56
+    Width = 205
+    Caption = 'https:\\www.google.com'
+    OnMouseDown = URLLabel1MouseDown
+    OnMouseEnter = URLLabel1MouseEnter
+    OnMouseLeave = URLLabel1MouseLeave
+  end
+  object Label2: TLabel
+    Left = 56
+    Height = 25
+    Top = 104
+    Width = 221
+    Caption = 'https:\\www.YouTube.com'
+    OnMouseDown = URLLabel1MouseDown
+    OnMouseEnter = URLLabel1MouseEnter
+    OnMouseLeave = URLLabel1MouseLeave
+  end
+  object Label3: TLabel
+    Left = 48
+    Height = 25
+    Top = 152
+    Width = 55
+    Caption = 'Label3'
+  end
+end
